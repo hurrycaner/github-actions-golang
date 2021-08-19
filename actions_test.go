@@ -9,4 +9,5 @@ import (
 
 func TestDemo(t *testing.T) {
 	Demo()
+	t.Fail()
 }
